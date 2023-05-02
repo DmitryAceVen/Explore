@@ -1,0 +1,42 @@
+//Base
+@import "./base/reset";
+@import "./base/base";
+//fonts
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/circular/CircularStd-Medium.eot");
+  src: local("../fonts/circular/Circular Std Medium"),
+    local("../fonts/circular/CircularStd-Medium"),
+    url("../fonts/circular/CircularStd-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/circular/CircularStd-Medium.woff2") format("woff2"),
+    url("../fonts/circular/CircularStd-Medium.woff") format("woff"),
+    url("../fonts/circular/CircularStd-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url("../fonts/sofia/Sofia-Bold.eot");
+  src: local("../fonts/sofia/Sofia Bold"), local("../fonts/sofia/Sofia-Bold"),
+    url("../fonts/sofia/Sofia-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/sofia/Sofia-Bold.woff") format("woff"),
+    url("../fonts/sofia/Sofia-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url("../fonts/sofia/Sofia-Medium.eot");
+  src: local("../fonts/Sofia Medium"), local("../fonts/Sofia-Medium"),
+    url("../fonts/Sofia-Medium.eot?#iefix") format("../fonts/embedded-opentype"),
+    url("../fonts/Sofia-Medium.woff") format("woff"),
+    url("../fonts/Sofia-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+//Blocks
+@import "./blocks/sidebar";
+@import "./blocks/header";
+@import "./blocks/cards-wrapper";
